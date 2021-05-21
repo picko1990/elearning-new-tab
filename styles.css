@@ -1,0 +1,15 @@
+
+#open_l {
+  color: #ff00aa;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  margin-left: 15px;
+  display: inline-block;
+  padding: 2px 12px;
+}
+
+#open_l:hover {
+  background-color: #f1f1f1;
+}

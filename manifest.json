@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+   
+    "name": "elearning new tab",
+    "version": "1.0.0",
+    "description": "open elearning links on new tab",
+    "icons": {
+      "48": "icon48.png"},
+   
+    "content_scripts": [{
+      "css": ["styles.css"],
+      "js": ["content.js"],
+      "matches": ["https://elearning.univ-constantine2.dz/elearning/course/view.php*"]
+    }]
+   
+  }
